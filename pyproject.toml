@@ -1,0 +1,35 @@
+[project]
+name = "python-template-example"
+version = "0.0.0"
+description = "Test python-template project"
+authors = [
+    { name = "Michael Scott", email = "michael.scott@dunder.mifflin.com" },
+]
+maintainers = [
+    { name = "Michael Scott", email = "michael.scott@dunder.mifflin.com" },
+]
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+]
+
+[tool.poetry]
+requires-poetry = ">=2.0"
+packages = [
+    { include = "python_template_example", from = "src" },
+]
+
+[tool.poetry.group.lint]
+optional = true
+[tool.poetry.group.lint.dependencies]
+ruff = "^0.9.6"
+yamllint = "^1.35.1"
+
+[tool.poetry.group.test]
+optional = true
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

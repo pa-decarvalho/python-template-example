@@ -1,0 +1,13 @@
+{
+	"name": "python-template-example",
+	"build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": ["editorconfig.editorconfig"]
+		}
+	}
+}
