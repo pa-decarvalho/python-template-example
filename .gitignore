@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__
+
+# Distribution / packaging
+build/
+dist/
+
+# Environments
+.venv
+.env
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+.cache
+.pytest_cache
+.tox/
+output/
+
+# Linters
+.ruff_cache

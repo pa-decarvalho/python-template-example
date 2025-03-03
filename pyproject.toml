@@ -2,6 +2,7 @@
 name = "python-template-example"
 version = "0.0.0"
 description = "Test python-template project"
+license = { text = "MIT" }
 authors = [
     { name = "Michael Scott", email = "michael.scott@dunder.mifflin.com" },
 ]
