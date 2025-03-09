@@ -14,6 +14,11 @@ requires-python = ">=3.9,<4.0"
 dependencies = [
 ]
 
+[project.urls]
+homepage = "https://github.com/pa-decarvalho/python-template-example"
+repository = "https://github.com/pa-decarvalho/python-template-example"
+documentation = "https://pa-decarvalho.github.io/python-template-example"
+
 [tool.poetry]
 requires-poetry = ">=2.0"
 packages = [
@@ -35,6 +40,11 @@ yamllint = "^1.35.1"
 optional = true
 [tool.poetry.group.test.dependencies]
 pytest = "^8.3.4"
+
+[tool.poetry.group.docs]
+optional = true
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.6.1"
 
 [build-system]
 requires = ["poetry-core"]

@@ -1,10 +1,13 @@
 ---
 # Changes here will be overwritten by Copier
-_commit: 0.7.0
+_commit: 0.10.0
 _src_path: gh:pa-decarvalho/python-template
 author_email: michael.scott@dunder.mifflin.com
 author_name: Michael Scott
 description: Test python-template project
 license: MIT
+mkdocs_site_url: https://pa-decarvalho.github.io/python-template-example
+mkdocs_theme: readthedocs
 package_name: python_template_example
 project_name: python-template-example
+repo_url: https://github.com/pa-decarvalho/python-template-example

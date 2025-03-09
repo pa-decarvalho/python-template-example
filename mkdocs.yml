@@ -1,0 +1,17 @@
+---
+# Project information
+site_name: Python-Template-Example
+site_url: https://pa-decarvalho.github.io/python-template-example
+site_description: Test python-template project
+
+# Repository
+repo_name: python-template-example
+repo_url: https://github.com/pa-decarvalho/python-template-example
+
+# Theme
+theme:
+  name: readthedocs
+
+# Plugins
+plugins:
+  - search

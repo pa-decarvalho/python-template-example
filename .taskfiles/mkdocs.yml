@@ -1,0 +1,24 @@
+---
+version: "3"
+
+tasks:
+  init:
+    internal: true
+    silent: true
+    cmds:
+      - mkdir -p docs
+      - cp README.md docs/index.md
+
+  build:
+    desc: Run mkdocs build command
+    silent: true
+    cmds:
+      - task: init
+      - poetry run mkdocs build
+
+  serve:
+    desc: Run mkdocs serve command
+    silent: true
+    cmds:
+      - task: init
+      - poetry run mkdocs serve
